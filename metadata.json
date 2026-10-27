@@ -1,0 +1,6 @@
+{
+  "name": "Rajesh Mobile Home Service - Hyderabad Doorstep Mobile Repair",
+  "description": "Convenient doorstep mobile repair service in Hyderabad by Rajesh. Screen replacement, battery, camera, water damage & more. Contact: 9989730436.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+
+  /* Hide scrollbars across the entire window and all containers while maintaining scroll functionality */
+  html,
+  body,
+  * {
+    -ms-overflow-style: none !important; /* IE and Edge */
+    scrollbar-width: none !important; /* Firefox */
+  }
+
+  *::-webkit-scrollbar {
+    display: none !important; /* Chrome, Safari and Opera */
+    width: 0 !important;
+    height: 0 !important;
+    background: transparent !important;
+  }
+}
+
+.font-handwriting {
+  font-family: 'Caveat', cursive;
+}
